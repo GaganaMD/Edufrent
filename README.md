@@ -1,63 +1,69 @@
 # Edufrent
 
+## Project Overview
 
-About Project:
---------------------------------------------------------------------------------------------------------------
+The landscape of EdTech faces several challenges including lack of engagement, limited personalization, and insufficient human interaction, among others. To address these issues, Edufrent aims to revolutionize education by leveraging the power of AI to personalize learning, provide intelligent support, and create an adaptive educational environment.
 
-Problem Statement
-    The current landscape of EdTechs presents several challenges, including
-        Lack of engagement
-        Limited personalization
-        Insufficient human interaction
-        Technological barriers
-        Lack of hands-on experience, motivational and self-discipline
-        Limited feedback and assessment
-        Overemphasis on content delivery
+### Challenges in EdTech:
 
+1. Lack of engagement
+2. Limited personalization
+3. Insufficient human interaction
+4. Technological barriers
+5. Lack of hands-on experience and self-discipline
+6. Limited feedback and assessment
+7. Overemphasis on content delivery
 
-Existing Solution and the gap we are filling
-    We aim to harness the power of AI by taking personalization to new heights. We strive to make education adaptable to various study methods through innovative solutions such as
-        Personalized learning
-        Intelligent virtual assistants
-        Adaptive assessments
-        Experiential learning
-        Intelligent content generation
-        Learning analytics
+### Our Solution:
 
-Features
+We aim to fill the gap in EdTech by introducing innovative solutions, including:
 
-    Personalized curriculum generator
-    Personalized Learning 
-    Intelligent Virtual Assistants
-    Adaptive Assessments 
-    Learning Analytics and Insights
-    Interview and Viva voce Preparation Bot
+- Personalized learning experiences
+- Intelligent virtual assistants
+- Adaptive assessments
+- Experiential learning opportunities
+- Intelligent content generation
+- Learning analytics
 
+## Key Features
 
+Edufrent incorporates the following key features:
 
-Technical Architecture:
-    Implement OpenAI's GPT-3.5 /4 (for implementing above mentioned)
-    Using Streamlit (for making Project UI interactable)
+- Personalized curriculum generator
+- Intelligent virtual assistants
+- Adaptive assessments
+- Learning analytics and insights
+- Interview and Viva voce preparation bot
 
+## Technical Architecture
 
-Scope for future upgradations
-    Option to upload the file to read form it.
-    Bionic reading(Speed reading and ADHD)
-    Collaboration feature with friends
-    Real time audio support for confidence enhancement
+Our project leverages:
 
+- OpenAI's GPT-3.5/4 for implementing AI-powered solutions
+- Streamlit for an interactive user interface
 
-Brief Description:
-In this project with the help of Generative AI and streamlit, we are making the application which helps in making the curriculum and making the students to learn on the specified topics based on their capabilities and willing, and In this we also implemented Assessment bot and Interview Bot, so that it asks questions and waits for our answer, based on our input it will give feedback where we need to focus to overcome mistakes.
+## Future Enhancements
 
+Future upgrades for Edufrent will include:
 
-How to run this project In your system:
-1. Create one new directory: mkdir dir_name
-2. Create one virtual environment using : python3 -m venv venv
-3. Activate your virtual environment : 
-4. Clone our github repo using command : git clone https://github.com/Anilabhimanyu/Edufrent
-5. Install all the dependencies (make sure you are in same path of requirements.txt) by using: pip install -r requirements.txt
-6. Create one env file and add your own open AI api token
-7. Run app.py by using streamlit by command: streamlit run app.py for using first two features
-8. Run app2.py by using streamlit by command: streamlit run app.py for using remaining features
-. 
+- File upload feature for generating questions from the content of the specific file uploaded 
+- Bionic reading for speed reading and ADHD support
+- Collaboration features with friends
+- Real-time audio support for confidence enhancement
+
+## Brief Description
+
+Edufrent utilizes Generative AI and Streamlit to create an application that helps in personalized curriculum development and adaptive learning based on individual capabilities and preferences. It also features assessment and interview bots to provide feedback and identify areas for improvement.
+
+## How to Run the Project in Your System
+
+1. Create a new directory: `mkdir dir_name`
+2. Create a virtual environment: `python3 -m venv venv`
+3. Activate your virtual environment.
+4. Clone the GitHub repository: `git clone https://github.com/GaganaMD/Edufrent/`
+5. Install dependencies using: `pip install -r requirements.txt` (ensure you are in the same directory as `requirements.txt`).
+6. Create an environment file and add your OpenAI API token.
+7. Run `app.py` using Streamlit for the first set of features.
+8. Run `app2.py` using Streamlit for the remaining features.
+
+---
