@@ -39,7 +39,7 @@ Edufrent incorporates the following key features:
 
 Our project leverages:
 
-- OpenAI's GPT-3.5/4 for implementing AI-powered solutions
+- OpenAI's GPT-3.5 for implementing AI-powered solutions
 - Streamlit for an interactive user interface
 
 ## Future Enhancements
